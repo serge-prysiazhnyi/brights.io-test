@@ -1,0 +1,26 @@
+.slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #98e2dd;
+}
+
+.slider-item-img {
+    height: 100%;
+}
+
+.slider-item:hover {
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 3px 0px rgba(77, 77, 77, 0.3);
+    transition: all .3s ease;
+}
+
+.slider-item-img:hover {
+    transform: scale(1.2) translateY(-9%);
+    transition: transform .3s cubic-bezier(.17,.67,.85,1.25);
+}
